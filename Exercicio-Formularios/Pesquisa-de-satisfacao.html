@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de Satisfação</title>
+    </head>
+    <body>
+        <h1>Pesquisa de Satisfação</h1>
+        <form method="post" action="processar-pesquisa.html">
+            <section>
+            <h2>Dados pessoais</h2>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" />
+            </p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+            </p>
+            <p>
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" id="telefone"/>
+            </p>
+            </section>
+            <section>
+             <h2>Dados de Pesquisa</h2>
+             <p>
+                Em uma escala de 1 a 5, qual sua satifação com o nosso atendimento?
+                <p>
+                <input type="radio" id="1" name="nivel-atendimento"/>
+                <label for="1">1</label>
+                <input type="radio" id="2" name="nivel-atendimento"/>
+                <label for="2">2</label>
+                <input type="radio" id="3" name="nivel-atendimento"/>
+                <label for="3">3</label>
+                <input type="radio" id="4" name="nivel-atendimento"/>
+                <label for="4">4</label>
+                <input type="radio" id="5" name="nivel-atendimento"/>
+                <label for="5">5</label>
+                </p>
+             </p>
+             <p>
+                De modo geral, qual é seu nível de satisfação ou insatisfação com nossa empresa?
+                <p>
+                    <input type="radio" id="Muito satisfeito(a)" name="satisfação-insatisfação"/>
+                    <label for="1">Muito satisfeito(a)</label>
+                    <input type="radio" id="Relativamente satisfeito(a)" name="satisfação-insatisfação"/>
+                    <label for="2">Relativamente satisfeito(a)</label>
+                    <input type="radio" id="Nem satisfeito(a), nem insatisfeito(a)" name="satisfação-insatisfação"/>
+                    <label for="3">Nem satisfeito(a), nem insatisfeito(a)</label>
+                    <input type="radio" id="Relativamente insatisfeito(a)" name="satisfação-insatisfação"/>
+                    <label for="4">Relativamente insatisfeito(a)</label>
+                    <input type="radio" id="Muito insatisfeito(a)" name="satisfação-insatisfação"/>
+                    <label for="5">Muito insatisfeito(a)</label>
+                </p>
+             </p>
+             <p>
+                Qual a probabilidade de você indicar a empresa para amigos e familiares?
+                <p>
+                    <input type="radio" id="1" name="amigos-familiares"/>
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="amigos-familiares"/>
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="amigos-familiares"/>
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="amigos-familiares"/>
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="amigos-familiares"/>
+                    <label for="5">5</label>  
+                </p>
+             </p>
+             <p>
+              <label for="setor">Setor responsável pelo atendimento:</label>
+              <p>
+              <select>
+               <option>Marketing</option>
+               <option>Vendas</option>
+               <option>Financeiro</option>
+               <option>Logística</option>
+               <option>Pós-Vendas</option>
+              </select>
+              </p>
+             </p>
+             <p>
+                <input type="checkbox" id="compartilhar-dados" />
+                <label for="compartilhar-dados">Autorizo o compartilhamento de dados com terceiros.</label>
+             </p>
+            </section>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
