@@ -1,0 +1,180 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: white;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    height: 60px;
+    margin-left: 60px;
+    }
+section, footer {
+    padding:54px 0;
+
+}
+h3{
+    font-size: 50px;
+}
+p{
+    color: black ;
+}
+.container {
+    max-width: 1400px;
+    margin: 0  auto;
+    padding: 0 5%;
+}
+.btn{
+    background-color: aqua;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: black;
+}
+nav{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul a {
+    color: black;
+    margin:0 25px ;
+    font-size: 15px;
+    display: block;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner-texto{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+.banner-texto h1{
+    font-size: 100px;
+    color: black;
+}
+.banner-texto p {
+    font-size: 20px;
+    color: black;
+    margin: 18px 0;
+}
+.novo-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.faca-mais-texto{
+    width: 60%;
+    padding: 0 40px;
+}
+.faca-mais-texto h3{
+    font-size: 50px;
+}
+.faca-mais-texto p{
+    margin: 5px 0 10px 0;
+    padding: 0 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.faca-mais-imagem{
+    width: 40%;
+}
+.faca-mais-imagem img{
+    width: 100%;
+}
+
+
+.faca-mais-imagem img{
+    height: 300px;
+    width: 300x;
+}
+.btn2{
+    background-color: aqua;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: black;
+
+}
+
+.novo-container2{
+    display: flex;
+    text-align: center;
+}
+
+
+.fotos2{
+    display: flex;
+     
+}
+.fotos2 img{
+    flex: 1;
+    margin: 5px;
+    height: 400px;
+    width: 400px;
+
+}
+
+
+.footer{
+    background-color: rgb(112, 157, 225);
+    text-align: center;
+    padding: 10px 0;
+    position:none ;
+    bottom: 0;
+    width: 100%;
+}
+.footer p{
+    margin: 10px;
+}
+
+.footer a{
+    margin-top: 20px;
+    padding: 10px;
+    height: 10px;
+}
+.social img {
+    height: 30px;
+}
+.sobre-bebejucas h2{
+    font-size: 50px;
+    color: black;
+    margin: 18px 0;
+    padding: 10px ;
+
+}
+.sobre-bebejucas p{
+    font-size: 18px;
+    color: black;
+    margin: 18px 0;
+    padding: 10px ;
+ 
+}
+.contato h2, h3 {
+    font-size: 30px;
+    color: black;
+    margin: 18px 0;
+    padding: 10px ;
+}
+.contato p{
+    font-size: 18px;
+    color: black;
+    margin: 18px 0;
+    padding: 10px ; 
+    
+}
